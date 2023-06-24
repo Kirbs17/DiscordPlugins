@@ -2,11 +2,13 @@
 
 /**
  * @name Rounded Corners
+ * @author ĸirbs№17
+ * @authorLink https://github.com/Kirbs17
  * @version 1.0.0
  * @description Applies rounded corners to the BetterDiscord app.
- * @author ĸirbs№17
- * @website https://yourwebsite.com
- * @source https://link-to-your-plugin-source-code
+ * @website https://github.com/Kirbs17
+ * @source https://github.com/Kirbs17/DiscordPlugins/blob/main/RoundedCorners.plugin.js
+ * @updateUrl https://github.com/Kirbs17/DiscordPlugins/blob/main/RoundedCorners.plugin.js
  */
 
 const plugin = (() => {
