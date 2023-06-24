@@ -21,20 +21,17 @@ const plugin = (() => {
 
   return class RoundedCorners {
     start() {
-      // Inject the custom CSS
       BdApi.injectCSS("rounded-corners-css", css);
     }
 
     stop() {
-      // Remove the injected CSS
       BdApi.clearCSS("rounded-corners-css");
     }
   };
 })();
 
-// Register the plugin with BetterDiscord
 if (global.ZeresPluginLibrary) {
-  global.ZeresPluginLibrary.PluginUpdater.checkForUpdate("RoundedCorners", "1.0.0", "https://link-to-your-plugin-changelog");
+  global.ZeresPluginLibrary.PluginUpdater.checkForUpdate("RoundedCorners", "1.0.0", "https://github.com/Kirbs17/DiscordPlugins");
 }
 
 if (typeof window !== "undefined" && window.BdApi && window.pluginModule) {
